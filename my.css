@@ -1,0 +1,69 @@
+    body {
+        background-color: #f8f9fa;
+    }
+    .resume-container {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .section-title {
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    ul li {
+        padding: 10px;
+        transition: background 0.3s ease-in-out;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    ul li:hover {
+        background: #007bff;
+        color: white;
+        border-radius: 5px;
+    }
+    ul li i {
+        margin-right: 10px;
+        color: #007bff;
+        transition: color 0.3s ease-in-out;
+    }
+    ul li:hover i {
+        color: white;
+    }
+
+    .core-competencies {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .core-competencies li {
+        padding: 10px;
+        transition: background 0.3s ease-in-out;
+        list-style: none;
+        display: inline-block;
+        align-items: center;
+        border: 1px solid #007bff;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    .core-competencies li:hover {
+        background: #007bff;
+        color: white;
+    }
+    .core-competencies li i {
+        margin-right: 10px;
+        color: #007bff;
+        transition: color 0.3s ease-in-out;
+    }
+    .core-competencies li:hover i {
+        color: white;
+    }
+    .project {
+        margin-bottom: 20px;
+    }
+    .project-divider {
+        border-bottom: 1px solid #dee2e6;
+        margin: 20px 0;
+    }
